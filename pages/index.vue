@@ -1,5 +1,7 @@
 <template>
-  <h1 class="text-[8rem]">Test</h1>
+  <div>
+    <Hero></Hero>
+  </div>
 </template>
 
 <script lang="ts">

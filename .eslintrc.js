@@ -19,4 +19,12 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: ['components/**/*.vue', 'pages/**/*.vue'],
+      rules: {
+        'vue/multi-word-component-names': 0,
+      },
+    },
+  ],
 }

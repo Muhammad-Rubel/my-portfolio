@@ -9,3 +9,9 @@
     font-family: 'Roboto', 'Sans-Serif';
   }
 }
+
+@layer components {
+  .max-w-1090 {
+    @apply max-w-[1090px] mx-auto;
+  }
+}
